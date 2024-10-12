@@ -177,7 +177,7 @@
         const animateDrawing = async () => {
             for (let i = 0; i < piString.length; i++) {
                 draw(piString[i], i);
-                await new Promise((resolve) => setTimeout(resolve, 1));
+                await new Promise((resolve) => setTimeout(resolve, 50));
             }
         };
         animateDrawing();
